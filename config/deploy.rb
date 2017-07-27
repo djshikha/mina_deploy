@@ -72,7 +72,7 @@ namespace :puma do
   desc "Start the application"
   task :start do
     comment 'echo "-----> Start Puma"'
-    comment "cd #{fetch(:app_path)} && RAILS_ENV=#{fetch(:stage)} && bin/puma.sh start", :pty => false
+    comment "cd #{fetch(:app_path)} && RAILS_ENV=#{fetch(:stage)} && bin/puma.sh start"
   end
 
   desc "Stop the application"
