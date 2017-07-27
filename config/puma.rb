@@ -9,4 +9,4 @@ stdout_redirect "/var/www/mina_deploy/shared/tmp/log/stdout", "/var/www/mina_dep
 
 threads 0, 16
 
-bind "unix:///var/www/mina_deploy/shared/tmp/sockets/puma.sock"
+bind "unix:/var/www/mina_deploy/shared/tmp/sockets/puma.sock"
